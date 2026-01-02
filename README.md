@@ -204,6 +204,34 @@ Copy code
 - Ticket creation works  
 - Unauthorized access is blocked  
 - Logout clears session  
+---
+
+## Deployment Options (Cloud-Based, Low Cost, Closed Access)
+
+This system is intended for closed, private nonprofit use (not public access).
+The following deployment options are recommended based on cost, security, and scalability.
+
+### Option 1: Oracle Cloud Free Tier (Recommended – Zero Cost)
+- Always-free cloud compute and storage (within limits)
+- Suitable for PHP + MySQL applications
+- No time-limited trial
+- Supports HTTPS, firewall rules, and private access
+- Best choice for zero ongoing hosting cost
+
+### Option 2: Low-Cost VPS (Most Stable)
+- Providers: DigitalOcean, AWS Lightsail, Vultr
+- Typical cost: $5–$12 per month
+- Predictable pricing and easier long-term maintenance
+- Good performance for ~10K users
+- Supports secure, closed-based deployment
+
+### Option 3: Cloudflare Access + Cloud Backend (Security-Focused)
+- Adds Zero Trust access control
+- Only approved users can reach the application
+- Works with Oracle Cloud or low-cost VPS backend
+- Recommended if stricter access control is required
+
+Free shared hosting solutions are not recommended for long-term or sensitive nonprofit operations.
 
 ---
 ## License
